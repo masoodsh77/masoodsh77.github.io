@@ -3,9 +3,66 @@ html , body{
     padding: 0;
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
 }
-.topheader{
+.Menu{
+    width: 4rem;
+    height: 100%;
+    background-color: #181A1C;
+    display: fixed;
+}
+.resume{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Logo{
     width: 100%;
     height: 4rem;
-    background-color: #161b22;
+    background-color: #50BC83;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.MainMenu{
+    width: 100%;
+    color: #50BC83;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 25px;
+}
+.MainMenu i{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.MainMenu i:hover{
+    color: white;
+}
+.download{
+    width: 100%;
+    color: #50BC83;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 25px;
+}
+.download i{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.download i:hover{
+    color: white;
 }
