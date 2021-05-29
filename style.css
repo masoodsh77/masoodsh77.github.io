@@ -5,64 +5,99 @@ html , body{
     height: 100%;
     display: flex;
     justify-content: flex-start;
-    align-items: center
-}
-.Menu{
-    width: 4rem;
-    height: 100%;
-    background-color: #181A1C;
-    display: fixed;
-}
-.resume{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.Logo{
-    width: 100%;
-    height: 4rem;
-    background-color: #50BC83;
-    color: white;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    font-size: 35px;
+    background-color: #e0e0e0 !important;
 }
-.MainMenu{
-    width: 100%;
-    color: #50BC83;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    font-size: 25px;
+.menu{
+    width: 4.5rem;
+    height: 25rem;
+    border-radius: 16px;
+    background: #e0e0e0;
+    box-shadow:  14px 14px 28px #acacac,
+                 -14px -14px 28px #ffffff;
 }
-.MainMenu i{
+.menu div{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
+    height: 5rem;
+    border-bottom: 1px solid lightgray;
     cursor: pointer;
 }
-.MainMenu i:hover{
-    color: white;
+.menu div:hover{
+    color: #68C38A !important;
+    border-radius: 16px;
+    background: #e0e0e0;
+    box-shadow:  14px 14px 28px #acacac,
+                 -14px -14px 28px #ffffff;
 }
-.download{
-    width: 100%;
-    color: #50BC83;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    font-size: 25px;
+.menuActive{
+    color: #68C38A !important;
+    border-radius: 16px;
+    background: #e0e0e0;
+    box-shadow:  14px 14px 28px #acacac,
+                 -14px -14px 28px #ffffff;
 }
-.download i{
+
+.menu div a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #000;
+}
+.Profile{
+    position: relative;
+    width: 20rem;
+    height: 35rem;
+    border-radius: 16px;
+    background: #e0e0e0;
+    box-shadow:  14px 14px 28px #acacac,
+                 -14px -14px 28px #ffffff;
+}
+.header{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
+    height: 40%;
+    background-image: url(./assets/img/abstract-flat-colorful-geometric-shapes-background_144290-24.jpg);
+    background-size: cover;
+}
+.ProfilePic{
+    width: 10rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 9rem;
+    border: 5px solid lightgray;
+}
+.ProfilePic img{
+    border-radius: 50%;
+}
+.information{
+    height: 60%;
+    width: 100%;
+    padding-top: 5rem;
+}
+.information h6{
+    color: #68C38A;
+}
+.socialmedia div i{
+    color: #000;
+}
+.socialmedia div i:hover{
+    color: #68C38A;
     cursor: pointer;
 }
-.download i:hover{
-    color: white;
+.information a {
+    color: black;
+    text-decoration: none;
+}
+.copyright{
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: 5px;
+}
+.main{
+    width: 40rem;
+    height: 35rem;
+    border-radius: 16px;
+    background: #e0e0e0;
+    box-shadow:  14px 14px 28px #acacac,
+                 -14px -14px 28px #ffffff;
 }
