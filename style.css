@@ -157,3 +157,34 @@ h1,h3,h4,h5,h6{
 .hole::-webkit-scrollbar-thumb:hover {
     background: #555; 
 }
+.SkillCard{
+    width: 100%;
+    height: 3rem;
+    background-color: red;
+    border-radius: 50px;
+}
+.box
+{
+  background:#fff;
+  height:8rem;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:relative;
+  flex-direction:column;
+  background: #e0e0e0;
+  box-shadow:  14px 14px 28px #acacac,
+               -14px -14px 28px #ffffff;
+  transition: transform .2s;
+  border-radius: 16px;
+}
+.box:hover{
+    color: #68C38A !important;
+}
+.box .text
+{
+  padding: 10px 0 0;
+  color:#999;   
+  font-weight:700;
+  letter-spacing:1px;
+}
